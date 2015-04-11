@@ -1,0 +1,195 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Apr 10 16:25:29 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21799 53065 391480 0) (desktop . "206") "nathan@nathan.local" nil nil ((((vertical-scroll-bars) (tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (cursor-color . "#FFFFEF") (tool-bar-lines . 0) (menu-bar-lines . 1) (font . "tty") (modeline . t) (unsplittable) (frameset--id . "EE7C-3C0A-54A5-49D9") (frameset--mini t) (minibuffer . t) (height . 61) (width . 270)) ((min-height . 16) (min-width . 30) (min-height-ignore . 10) (min-width-ignore . 6) (min-height-safe . 4) (min-width-safe . 6) (min-pixel-height . 16) (min-pixel-width . 30) (min-pixel-height-ignore . 10) (min-pixel-width-ignore . 6) (min-pixel-height-safe . 4) (min-pixel-width-safe . 6)) hc (pixel-width . 270) (pixel-height . 59) (total-width . 270) (total-height . 59) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 135) (pixel-height . 59) (total-width . 135) (total-height . 59) (normal-height . 1.0) (normal-width . 0.5) (buffer "hours.org" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 6489) (start . 1))) (vc (last . t) (pixel-width . 135) (pixel-height . 59) (total-width . 135) (total-height . 59) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (hc (pixel-width . 135) (pixel-height . 29) (total-width . 135) (total-height . 29) (normal-height . 0.5) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 68) (pixel-height . 29) (total-width . 68) (total-height . 29) (normal-height . 1.0) (normal-width . 0.5) (buffer "*-jabber-roster-*" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (vc (last . t) (pixel-width . 67) (pixel-height . 29) (total-width . 67) (total-height . 29) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 67) (pixel-height . 15) (total-width . 67) (total-height . 15) (normal-height . 0.5) (normal-width . 1.0) (buffer "*terminal<2>*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 63839) (start . 63783))) (leaf (last . t) (pixel-width . 67) (pixel-height . 14) (total-width . 67) (total-height . 14) (normal-height . 0.5) (normal-width . 1.0) (buffer "*-jabber-groupchat-exove@rooms.ical.exove.net-*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 6785) (start . 6446))))) (leaf (pixel-width . 135) (pixel-height . 15) (total-width . 135) (total-height . 15) (normal-height . 0.25) (normal-width . 1.0) (buffer "*terminal<4>*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 60) (start . 1))) (hc (last . t) (pixel-width . 135) (pixel-height . 15) (total-width . 135) (total-height . 15) (normal-height . 0.25) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 68) (pixel-height . 15) (total-width . 68) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "*mu4e-headers*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1))) (leaf (last . t) (pixel-width . 67) (pixel-height . 15) (total-width . 67) (total-height . 15) (normal-height . 1.0) (normal-width . 0.5) (buffer "*-jabber-roster-*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 1) (start . 1)))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("console.log" "_mail" "ocs_api_url" "_omegawave_ocs_integration_api_call_execute" "notify" "desktop"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/personal/nathan.el" "~/.emacs.d/init.el" "~/.emacs.d/notify/notify.el" "~/.emacs.d/personal/notify.el" "~/.emacs.d/personal/exove.el" "~/Documents/hours.org" "~/hours.csv" "~/*message*-20150406-105749" "~/.emacs.d/workgroups/workgroups.el" "~/.emacs.d/workgroups/ *temp*" "/Users/nathan/.emacs.d/.git/COMMIT_EDITMSG" "~/.emacs.d/workgroups" "~/.emacs.d/workgroups.el" "~/.emacs.d/dotEmac/workgroups.el" "/Users/nathan/ *Minibuf-2*" "~/.offlineimaprc" "~/.authinfo" "/Users/nathan/Sites/nathan_nesta" "/Users/nathan/git/nesta-plugin-feed-import" "~/.emacs.d/prelude-modules.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/nathan/Documents/hours.org"
+  "hours.org"
+  'org-mode
+  '(abbrev-mode prelude-mode global-auto-revert-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode)
+  6489
+  '(6958 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/nesteoil.info"
+  "nesteoil.info"
+  'conf-windows-mode
+  '(prelude-mode global-auto-revert-mode volatile-highlights-mode projectile-mode anzu-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode)
+  18
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/js/matchMedia.addListener.js"
+  "matchMedia.addListener.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode linum-mode js2-imenu-extras-mode)
+  1525
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/node_modules/grunt/node_modules/coffee-script/lib/coffee-script/browser.js"
+  "browser.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode js2-imenu-extras-mode)
+  163
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/js/nesteoil.liftup.js"
+  "nesteoil.liftup.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode linum-mode js2-imenu-extras-mode)
+  243
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/modules/custom/noil_addthis/noil_addthis.module"
+  "noil_addthis.module"
+  'php-mode
+  '(auto-fill-mode abbrev-mode prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode drupal-mode)
+  801
+  '(nil nil)
+  nil
+  nil
+  '((show-trailing-whitespace . t) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (fill-column . 80) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/js/nesteoil.menu.js"
+  "nesteoil.menu.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode linum-mode js2-imenu-extras-mode)
+  2126
+  '(888 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/js/matchMedia.js"
+  "matchMedia.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode linum-mode js2-imenu-extras-mode)
+  246
+  '(1701 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/.org-jira/NOIL.org"
+  "NOIL.org"
+  'org-mode
+  '(abbrev-mode prelude-mode global-auto-revert-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode org-jira-mode)
+  8397
+  '(8282 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/js/nesteoil.modal.js"
+  "nesteoil.modal.js"
+  'js2-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode linum-mode js2-imenu-extras-mode)
+  289
+  '(289 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/sass/components/_panels.scss"
+  "_panels.scss"
+  'scss-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode rainbow-mode)
+  1979
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/.org-jira/todo.org"
+  "todo.org"
+  'org-mode
+  '(abbrev-mode prelude-mode global-auto-revert-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode)
+  87
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/template.php"
+  "template.php"
+  'php-mode
+  '(abbrev-mode prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode)
+  535
+  '(535 nil)
+  nil
+  nil
+  '((show-trailing-whitespace) (tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (case-fold-search . t)))
+
+(desktop-create-buffer 206
+  nil
+  ".org-jira"
+  'dired-mode
+  '(prelude-mode global-auto-revert-mode volatile-highlights-mode projectile-mode anzu-mode flx-ido-mode helm-mode company-mode diff-hl-dired-mode)
+  328
+  '(nil nil)
+  t
+  '("/Users/nathan/.org-jira/")
+  nil)
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/themes/custom/nesteoil/sass/layouts/_grids.scss"
+  "_grids.scss"
+  'scss-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode rainbow-mode)
+  114
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/Users/nathan/Sites/vagrant-nesteoil/git/nesteoil/design/html_templates/sass/base/_table.scss"
+  "_table.scss"
+  'scss-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode flyspell-mode projectile-mode anzu-mode whitespace-mode undo-tree-mode diff-hl-mode flx-ido-mode helm-mode company-mode flycheck-mode guru-mode rainbow-mode)
+  9
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
