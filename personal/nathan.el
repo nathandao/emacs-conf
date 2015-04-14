@@ -7,11 +7,13 @@
 ;;(setq notify-method 'notify-via-dbus)
 ;;(set-face-attribute 'highlight nil :background "#ebebeb")
 
+(setq x-select-enable-primary 't)
+(setq x-select-enable-clipboard 'nil)
 (setq frame-tile-format "%b - Emacs")
 
 ;; Custom key-binding
-(key-chord-define-global "OO" 'switch-window)
-(key-chord-define-global "FF" 'new-frame)
+(key-chord-define-global "SS" 'switch-window)
+;;(key-chord-define-global "FF" 'new-frame)
 (key-chord-define-global "LL" 'linum-mode)
 
 ;; Change line spacing

@@ -12,7 +12,6 @@
 
 ;; Insert a task
 (defun exove-task (task start end desc log-inside)
-  "Log a new hour item"
   (interactive
    (list (completing-read "Task name: " exove-task-list nil t "")
          (read-string "Start: " (format-time-string "%Y-%m-%d %H:%M"))
@@ -31,46 +30,46 @@
     (cond ((equal log-inside "y")
            (exove-curl task-entry))
           (t
+           (exove-fortune)
            (notify "Exove Inside" "Entry only added to text file")))))
 
 ;; Open the hour file
 (defun exove-view ()
-  "Load up Exove log file"
   (interactive)
   (find-file "~/Documents/hours.org"))
 
 ;; Custom curl call
 (defun exove-curl (task-entry)
-  "Exove curl"
   (interactive)
   (let* ((exove-buffer (get-buffer-create "*exove*"))
          (exove-curl-cmd (concat curl-cmd " -F 'data=" task-entry "'"))
          (result (call-process-shell-command exove-curl-cmd nil exove-buffer t))
          (output (with-current-buffer exove-buffer (buffer-string))))
     (cond ((zerop result)
-           (notify "EXOVE INSIDE" "Entry logged to inside."))
+           (exove-fortune))
           (t
            (message nil)
            (split-window-vertically)
            (set-window-buffer (next-window) exove-buffer)))))
 
+;; Fortune API url
+(defvar fortune-url "http://fortunecookieapi.com/v1/fortunes")
+
 ;; Collect fortune cookies
 (defun exove-fortune ()
-  "Collecd random fortunes for the fortune"
   (interactive)
-  (url-retrieve
-   "http://fortunecookieapi.com/v1/fortunes?limit=3"
-   (lambda (events)
-     (goto-char url-http-end-of-headers)
-     (let ((json-object-type 'plist)
-           (json-key-type 'symbol)
-           (json-array-type 'vector))
-       (let ((result (json-read)))
-         (notify "Fortune babay" result)
-         (let ((array-of-times (json-read-from-string result)))
-           (let ((c (length array-of-times)))
-             (dotimes (n c)
-               (insert (format "user_id %s\n" (cdr (assoc 'message (elt array-of-times n)))))))))))))
+  (let* ((page (+ 1 (random 30)))
+         (limit (+ 4 (random 10)))
+         (skip (+ 1 (random 30)))
+         (url-request-method "GET")
+         (arg-stuff (concat "?limit=" (number-to-string limit)
+                            "&page=" (number-to-string page)
+                            "&skip=" (number-to-string skip))))
+      (url-retrieve (concat fortune-url arg-stuff)
+                    (lambda (status)
+                      (goto-char url-http-end-of-headers)
+                      (let ((result (json-read)))
+                        (notify "Genghis Khan once said..." (cdr (assoc 'message (elt result 1)))))))))
 
 ;; Insert current date timestamp
 (defun exove-today ()
